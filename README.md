@@ -209,6 +209,10 @@ the shipped jars. A reference counted here is not a fault - it is where
 to look.
 ```
 
+## The same finding, written up
+
+The queue, the single worker thread, the coalesce rule that decides which duplicate survives, and the `success()` that returns `true` for an alarm nobody delivered are also written up as a page: <https://plantroomlabs.com/tools/alarm-route-scan/>. It carries a captured run of this program, the download with its byte count and SHA-256, the Niagara version the bytecode was read on beside the version of the JACE it was checked against, and the note on alarm routing that explains why the defaults are shaped the way they are.
+
 ## Licence
 
 MIT. Written by Usama Iqbal at [Plantroom Labs](https://plantroomlabs.com).
