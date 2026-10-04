@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Usama Iqbal (Plantroom Labs)
 """What a Niagara station does to an alarm between the source and the recipient.
 
 Reads javax.baja.alarm and com.tridium.alarm out of alarm-rt.jar, and
